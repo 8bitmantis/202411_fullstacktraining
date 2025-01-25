@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio_tabella_color</title>
+    <style>
+        table { width: 100%;
+                height: 250px; 
+                color: rgb(0, 0, 0);
+                border: 2px solid gray; 
+                border-collapse: collapse; 
+                
+              }
+        td {border: 2px solid gray (110, 110, 110);} 
+                
+        thead {color: #ffffc1; background-color: #BD9001;}
+        tbody { background-color: #fee799}        
+
+    </style>    
+</head>
+<body>
+ <table>    
+    <thead>
+       <tr>
+            <td align="center" width="150px"><strong>ALBERGO</strong></td>
+            <td align="center" width="150px"><strong>REGIONE</strong></td>
+            <td align="center" width="150px"><strong>STELLE</strong></td>
+            <td align="center" width="150px"><strong>COSTO CAMERA</strong></td>
+       </tr> 
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center" width="150px">Aristeo</td>
+            <td align="center" width="150px">Emilia Romagna</td>
+            <td align="center" width="150px">1</td>
+            <td align="center" width="150px">76,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">L'essenza</td>
+            <td align="center" width="150px">Lombardia</td>
+            <td align="center" width="150px">2</td>
+            <td align="center" width="150px">87,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Sara</td>
+            <td align="center" width="150px">Lombardia</td>
+            <td align="center" width="150px">4</td>
+            <td align="center" width="150px">142,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Grand Hotel</td>
+            <td align="center" width="150px">Emilia Romagna</td>
+            <td align="center" width="150px">5</td>
+            <td align="center" width="150px">280,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Cariccio</td>
+            <td align="center" width="150px">Calabria</td>
+            <td align="center" width="150px">4</td>
+            <td align="center" width="150px">155,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Ambassador</td>
+            <td align="center" width="150px">Calabria</td>
+            <td align="center" width="150px">2</td>
+            <td align="center" width="150px">84,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Aster</td>
+            <td align="center" width="150px">Emilia Romagna</td>
+            <td align="center" width="150px">3</td>
+            <td align="center" width="150px">134,00€</td>
+        </tr>
+        <tr>
+            <td align="center" width="150px">Jazz</td>
+            <td align="center" width="150px">Sardegna</td>
+            <td align="center" width="150px">3</td>
+            <td align="center" width="150px">134,00€</td>
+        </tr>
+        
+    </tbody>
+ </table>  
+</body>
+</html>
