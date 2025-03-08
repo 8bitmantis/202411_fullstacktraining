@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Apple</title>
+</head>
+<style>
+    *{box-sizing: border-box;  
+    }
+
+    .display1{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;}
+
+    .display2{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;}
+
+    .left1{flex:1;
+        height: 410px;
+        margin: 0px 0px 5px 0;
+        background-color: rgb(248, 248, 248);
+        background-image: url(https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center bottom;
+        text-align: center;
+        line-height: 0px
+    }
+    
+    .Watch{padding: 15px 20px 270px 20px;
+        }    
+
+    .left2{flex:1;
+        height: 410px;
+        background-color: black;
+        background-image: url(https://www.apple.com/v/macbook-pro/ao/images/meta/macbook-pro__catc3my4a336_og.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        text-align: center;
+        line-height: 3px
+    }
+
+    .MacBook{padding: 20px 20px 270px 20px;
+    }
+
+    .right1{flex:1;
+        background-color: black;
+        height: 410px;
+        margin: 0px 0px 5px 0;
+        background-image: url(https://www.apple.com/newsroom/images/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/article/Apple-iPad-Pro-hero-240507_big.jpg.large.jpg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        text-align: center;
+        line-height: 5px
+    }
+
+    .iPad{padding: 20px 20px 270px 20px;
+    }
+
+    .right2{flex:1;
+        height: 410px;
+        background-color: black;
+        background-image: url(https://www.apple.com/v/airpods-pro/n/images/meta/og__eui2mpgzwyaa_hearing.png?202501301357);
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        text-align: center;
+        line-height: 0px
+    }
+
+    .AirPods{padding: 270px 20px 2px 20px;
+     }
+
+    p{color: white;
+      font-family: "Roboto", serif;
+      font-style: solid;
+      text-align: center;  
+    }
+
+    .classic {color: black;
+      font-family: "Roboto", serif;
+      font-style: solid;
+      text-align: center;
+    }
+
+    h2{color: white;
+      font-family: "Roboto", serif;
+      font-style: solid;
+      text-align: center;
+    }
+
+    .diverso{color: black;
+      font-family: "Roboto", serif;
+      font-style: solid;
+      text-align: center;
+    }
+
+    h5 {color: black;
+      font-family: "Roboto", serif;
+      font-style: solid;
+      text-align: center;
+    }
+
+    .B1{background-color: #0065EB;
+     font-family: "Roboto", serif;
+     font-style: solid;
+     color:white;
+     border-radius: 20px 20px 20px 20px;
+     border-color:  #0065EB;
+     height: 35px;
+     width: 90px;     
+    }
+
+    .B1:hover{background-color: #ffffff;
+        border-color: #0065EB;
+        color: #000000;
+    }
+
+    .B2{background-color: #000000;
+     font-family: "Roboto", serif;
+     font-style: solid;
+     color:#0065EB;
+     border-radius: 20px 20px 20px 20px;
+     border-color:  #0065EB;
+     height: 35px;
+     width: 55px;
+    }
+
+    .B2:hover{background-color: #ffffff;
+        border-color: #0065EB;
+        color: #000000;
+    } 
+    
+    .B3 {background-color: rgb(248, 248, 248);;
+     font-family: "Roboto", serif;
+     font-style: solid;
+     color:#0065EB;
+     border-radius: 20px 20px 20px 20px;
+     border-color:  #0065EB;
+     height: 35px;
+     width: 55px;
+    }
+
+    .B3:hover{background-color: #000000;
+        border-color: #0065EB;
+        color: #ffffff;
+    }
+    
+@media only screen and (max-width:380px) {
+    .display1, .display2 { flex-direction:column;
+                   flex-wrap: wrap;
+                   gap: 2px;
+                           } 
+  }            
+
+</style>
+<body>
+  <div class="display1">
+    <div class="left1">
+       <div class="Watch">
+         <h2 class="diverso">WATCH</h2>
+         <h5>SERIES 10</h5>
+         <p class="classic">Thinstant classic.</p>
+         <button class="B1"><a href='#'></a>Learn More</button>
+         <button class="B3"><a href='#'></a>Buy</button>
+       </div> 
+    </div>
+    <div class="right1">
+        <div class="iPad">
+          <h2>iPad Pro</h2>
+          <p>Unbelievably thin. Increbly powerful.</p>
+          <button class="B1"><a href='#'></a>Learn More</button>
+          <button class="B2"><a href='#'></a>Buy</button>
+        </div>
+    </div>
+  </div>
+  <div class="display2"> 
+    <div class="left2">
+        <div class="MacBook">
+          <h2>MacBook Pro</h2>
+          <p>A work of smart.</p>
+          <button class="B1"><a href='#'></a>Learn More</button>
+          <button class="B2"><a href='#'></a>Buy</button>
+        </div> 
+     </div>
+     <div class="right2">
+        <div class="AirPods">
+          <h2>AirPods Pro 2</h2>
+          <p>Now with a Hearing Aid feature.<sup>1</sup></p>
+          <button class="B1"><a href='#'></a>Learn More</button>
+          <button class="B2"><a href='#'></a>Buy</button>
+         </div>
+     </div>
+  </div>         
+</body>
+</html>
